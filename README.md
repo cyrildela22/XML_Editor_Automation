@@ -12,6 +12,10 @@ The challenges of manual XML file editing were multi-fold. The process demanded 
 In response to these challenges, I proposed the integration of an AI-driven solution to automate the editing process, offering accuracy, efficiency, and reduced operational risk. Collaborating with ChatGPT, I refined and customized the preliminary code to create a user-friendly tool to meet the demand of my team. This solution not only streamlined editing but also led to the development of a graphical user interface (UI) accessible to all team members, eliminating the need for specialized Python knowledge. The project culminated in the successful conversion of the Python code into an executable (exe) file, resulting in a remarkable time-saving achievement of approximately 70% for team members engaged in policy editing tasks.
 
 
-
-
+## Packages and Installation
+Installation of the following packages via conda or pip.
+- tkinter
+- xml.etree.ElementTree
+- xml.dom.minidom
+  
 
