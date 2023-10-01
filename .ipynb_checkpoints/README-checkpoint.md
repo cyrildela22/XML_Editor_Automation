@@ -1,7 +1,5 @@
 # XML_Editor_Automation
 ## Problem Overview
-hiiiiiiiiiiiiiiiiiiiiiiiiiii
-
 During my internship at NYL, I identified a significant challenge that presented an opportunity to enhance team efficiency by up to 70%. This problem centered around the manual editing process of an essential XML file used to illustrate policyholder inforce information, specifically within the context of policy changes. The need for frequent manual editing not only consumed valuable time but also introduced the risk of data corruption due to inadvertent errors.
 
 ## Problem Identification:
