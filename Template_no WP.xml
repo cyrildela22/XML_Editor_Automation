@@ -1,12 +1,7 @@
 <NS1:TXLife >
     <NS1:TXLifeResponse >
-      <NS1:TransRefGUID>85856c57-6a43-490e</NS1:TransRefGUID>
       <NS1:TransType >TX203</NS1:TransType>
       <NS1:TransExeDate>2020-02-11</NS1:TransExeDate>
-      <NS1:TransExeTime>10:53:37</NS1:TransExeTime>
-      <NS1:TransResult>
-        <NS1:ResultCode tc="1">RESULT_SUCCESS</NS1:ResultCode>
-      </NS1:TransResult>
       <NS1:OLifE >
         <NS1:Holding id="Holding_1">
           <NS1:AsOfDate>2020-02-11</NS1:AsOfDate>
@@ -14,38 +9,25 @@
           <NS1:Policy>
             <NS1:PolNumber>111111</NS1:PolNumber>
             <NS1:LineOfBusiness tc="1">Life</NS1:LineOfBusiness>
-            <NS1:ProductType tc="2">OLI_PRODTYPE_TERM</NS1:ProductType>
-            <NS1:ProductCode>IPT</NS1:ProductCode>
-            <NS1:ProductVersionCode>98</NS1:ProductVersionCode>
-            <NS1:PlanName>Increasing Premium Term Insurance</NS1:PlanName>
-            <NS1:Jurisdiction tc="6">OLI_USA_CA</NS1:Jurisdiction>
+            <NS1:ProductType tc="2">TERM</NS1:ProductType>
+            <NS1:Jurisdiction tc="6">CALIFONIA</NS1:Jurisdiction>
             <NS1:EffDate>1992-11-28</NS1:EffDate>
             <NS1:PaidToDate>2020-05-28</NS1:PaidToDate>
-            <NS1:CarrierCode tc="08">Corporation</NS1:CarrierCode>
-            <NS1:PaymentMode tc="1000805011">OLI_PAYMODE_CHK_O_MATIC</NS1:PaymentMode>
-            <NS1:PolicyStatus tc="1">OLI_POLSTAT_ACTIVE</NS1:PolicyStatus>
-            <NS1:OLifEExtension VendorCode="11111">
+            <NS1:PaymentMode tc="1">DAILY</NS1:PaymentMode>
+            <NS1:PolicyStatus tc="1">ACTIVE</NS1:PolicyStatus>
+            <NS1:OLifEExtension VendorCode="0008">
               <NS1:AATCDate>2039-03-16</NS1:AATCDate>
               <NS1:OATCDate>2039-03-16</NS1:OATCDate>
             </NS1:OLifEExtension>
             <NS1:Life>
               <NS1:FaceAmt>120000</NS1:FaceAmt>
-              <NS1:Coverage id="Life_Coverage_ID_BSE1IPT">
-                <NS1:LifeCovTypeCode tc="6">OLI_COVTYPE_TERMLEVEL</NS1:LifeCovTypeCode>
-                <NS1:IndicatorCode tc="1">OLI_COVIND_BASE</NS1:IndicatorCode>
-                <NS1:ProductVersionCode>98</NS1:ProductVersionCode>
-                <NS1:LevelPremiumPeriod>1</NS1:LevelPremiumPeriod>
-                <NS1:LifeParticipant PartyID="PARTY_11111">
-                  <NS1:LifeParticipantRoleCode tc="1">OLI_PARTICROLE_PRIMARY</NS1:LifeParticipantRoleCode>
+              <NS1:Coverage id="Life_Coverage">
                   <NS1:IssueAge>31</NS1:IssueAge>
-                  <NS1:IssueGender tc="1">OLI_GENDER_MALE</NS1:IssueGender>
-                  <NS1:TobaccoPremiumBasis tc="1">OLI_TOBPREMBASIS_NONSMOKER</NS1:TobaccoPremiumBasis>
-                  <NS1:PermTableRating tc="1">OLI_TBLRATE_NONE</NS1:PermTableRating>
-                  <NS1:UnderwritingClass tc="1">OLI_UNWRITE_STANDARD</NS1:UnderwritingClass>
+                  <NS1:IssueGender tc="1">MALE</NS1:IssueGender>
+                  <NS1:TobaccoPremiumBasis tc="1">NONSMOKER</NS1:TobaccoPremiumBasis>
+                  <NS1:PermTableRating tc="1">NONE</NS1:PermTableRating>
+                  <NS1:UnderwritingClass tc="1">STANDARD</NS1:UnderwritingClass>
                 </NS1:LifeParticipant>
-                <NS1:OLifEExtension ExtensionCode="NYLLifeParticipantExtension" VendorCode="1111">
-                  <NS1:ExtensionOfCoveragePrivilege tc="0">false</NS1:ExtensionOfCoveragePrivilege>
-                </NS1:OLifEExtension>
               </NS1:Coverage>
               <NS1:KeyedValue>
                 <NS1:KeyName>Part1Date</NS1:KeyName>
@@ -57,50 +39,23 @@
             </NS1:ApplicationInfo>
           </NS1:Policy>
         </NS1:Holding>
-        <NS1:Party id="PARTY_111111">
+        <NS1:Party id="PARTY">
           <NS1:PartyTypeCode tc="1">INDIVIDUAL</NS1:PartyTypeCode>
           <NS1:Person>
             <NS1:FirstName>CYRIL</NS1:FirstName>
             <NS1:LastName>OCLOO</NS1:LastName>
-            <NS1:Gender tc="2">OLI_GENDER_FEMALE</NS1:Gender>
+            <NS1:Gender tc="2">FEMALE</NS1:Gender>
             <NS1:BirthDate>1992-22-06</NS1:BirthDate>
           </NS1:Person>
-          <NS1:Address id="ADDRESS_OWNERINSURED111111_1">
+          <NS1:Address id="ADDRESS">
             <NS1:Line1>PO BOX 160</NS1:Line1>
             <NS1:City>LLANO</NS1:City>
             <NS1:AddressState>TX</NS1:AddressState>
-            <NS1:AddressStateTC tc="6">OLI_USA_CA</NS1:AddressStateTC>
+            <NS1:AddressStateTC tc="6">CALIFONIA</NS1:AddressStateTC>
             <NS1:Zip>78643</NS1:Zip>
           </NS1:Address>
-          <NS1:Phone>
-            <NS1:PhoneTypeCode tc="2">OLI_PHONETYPE_BUS</NS1:PhoneTypeCode>
-            <NS1:AreaCode>214</NS1:AreaCode>
-            <NS1:DialNumber>111111</NS1:DialNumber>
-          </NS1:Phone>
         </NS1:Party>
-        <NS1:Party id="PARTY_1111111">
-          <NS1:PartyTypeCode tc="0">UNKNOWN</NS1:PartyTypeCode>
-          <NS1:Organization />
-          <NS1:Person />
-          <NS1:Address id="ADDRESS_BENEFICIARY1111111" />
-        </NS1:Party>
-        <NS1:Party id="SOLICITINGAGENT_111111">
-          <NS1:Person>
-            <NS1:FirstName>CYRIL</NS1:FirstName>
-            <NS1:LastName>OCLOO</NS1:LastName>
-            <NS1:Gender tc="1">OLI_GENDER_MALE</NS1:Gender>
-            <NS1:BirthDate>1992-06-22</NS1:BirthDate>
-          </NS1:Person>
-          <NS1:Address id="ADDRESS_WRITINGAGENTSOLICITINGAGENT_">
-            <NS1:AddressTypeCode tc="2">OLI_ADTYPE_BUS</NS1:AddressTypeCode>
-            <NS1:Line1>1111 MER DR</NS1:Line1>
-            <NS1:Line2>SUITE 1111</NS1:Line2>
-            <NS1:City>DALLAS</NS1:City>
-            <NS1:AddressState>TX</NS1:AddressState>
-            <NS1:AddressStateTC tc="51">OLI_USA_TX</NS1:AddressStateTC>
-            <NS1:Zip>11111</NS1:Zip>
-          </NS1:Address>
-        </NS1:Party>
+
       </NS1:OLifE>
     </NS1:TXLifeResponse>
   </NS1:TXLife>
